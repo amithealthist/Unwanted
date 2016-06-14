@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Test for external Consultation</title>
+</head>
+<body>
+<h1>Hi this new file</h1>
+<!--<form method="get" action="http://localhost:3000/#/user/signup">
+    <input type="text" name="name" placeholder="Enter your name" required>
+    <input type="email" name="email" placeholder="Enter your email" required>
+    <input type="text" name="phone_number" placeholder="Enter your mobile no" required>
+    <input type="text" name="specialization" value="der" style="display:none">
+    <button type="submit">Submit</button>
+</form>-->
+
+<div class="jd-root"></div>
+
+</body>
+
+<script>(function () {
+    window.jd_data = {
+        id: '562066-ziffi',
+        name: "amit",
+        email: "amit@justdoc.com",
+        mobile: 9035106814,
+        logoUrl: 'http://localhost:3000/img/GurunMe.jpg'
+        //You can add more property like name, email, mobile etc.
+    };
+    var element = document.createElement("script");
+    element.src = 'http://localhost:3000/js/jd.js';
+    document.head.appendChild(element);
+})();
+</script>
+<!--<script>
+    window.jdPartnerId = '231028-porte';
+    window.jdData = {
+        jdPartnerId: '231028-porte',
+        couponCode: 'Free100',
+        speciality: 'psychologist',
+        doctorId: '29'
+        //You can add more property like name, email, mobile etc.
+    };
+    var element = document.createElement("script");
+    element.src = '//justdoc.com/js/jdSupport.js';
+    document.head.appendChild(element);
+    window.document.getElementById('jdButton').addEventListener("click", function () {
+        onButtonClick(window.jdData);
+    });
+</script>-->
+</html>
